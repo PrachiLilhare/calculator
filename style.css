@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;    
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+   width: 100%;
+    height: 5rem;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2.5em;
+    margin: auto;
+    color: #fff;
+}
+.container{
+    width: 25rem;
+    height: 25rem;
+    border: 5px solid #fff;
+    margin: auto;
+}
+
+/* Inner - Body of Calculator */
+#display{
+    width:22.4rem;
+    height:3.5rem;
+    margin: 1em;
+    padding: 1em;
+    font-size:1em;
+    border: 1px solid #fff;
+}
+
+.operate{
+    margin: 1.8em;
+}
+/* Row 1 */
+.row1{
+    margin-bottom: 0.5rem;
+}
+ #button1 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button1:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button2:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button3:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button4:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button5:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button6:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button7:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button8:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button9:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button10:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button11:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button12:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button13:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button14:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button15:hover{
+   box-shadow: 1px rgba(196, 188, 188,0.5);
+   background: #666;
+}
+ #button16:hover{
+    box-shadow: 1px rgba(196, 188, 188,0.5);
+    background: #666;
+ }
+
+ #button2 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button3 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button4 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ /* Row 2 */
+
+ .row2{
+    margin-bottom: 0.5rem;
+}
+ #button5 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ #button6 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button7 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+ }
+ #button8 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ /* Row 3 */
+
+ .row3{
+    margin-bottom: 0.5rem;
+}
+ #button9 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ #button10 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button11 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button12 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ /* Row 4 */
+
+ .row4{
+    margin-bottom: 0.5rem;
+}
+ #button13 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ #button14 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button15 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ #button16 {
+    width: 5rem; 
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+
